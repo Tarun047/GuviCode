@@ -4,7 +4,7 @@ def dig(num):
 def main():
     n = int(input())
     a = sorted([int(x) for x in input().split()],key=dig,reverse=True)
-    print(a)
+    #print(a)
     print(''.join(map(str,a)))
 
 try:
